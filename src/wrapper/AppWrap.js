@@ -10,8 +10,12 @@ const AppWrap = (Component, idName, classNames) =>
           <Component />
 
           <div className="copyright">
-            <p className="p-text">@2022 Jemil</p>
-            <p className="p-text">All rights reserved</p>
+            <p className="p-text" style={{ color: "#313bac", fontSize: "1em" }}>
+              @2022 Jemil
+            </p>
+            <p className="p-text" style={{ color: "#313bac", fontSize: "1em" }}>
+              All rights reserved
+            </p>
           </div>
         </div>
         <NavigationDots active={idName} />
