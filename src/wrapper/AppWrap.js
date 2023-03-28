@@ -16,6 +16,14 @@ const AppWrap = (Component, idName, classNames) =>
             <p className="p-text" style={{ color: "#313bac", fontSize: "1em" }}>
               All rights reserved
             </p>
+            <a href="https://jamilthedev.netlify.app/">
+              <p
+                className="p-text"
+                style={{ color: "#313bac", fontSize: "1em", cursor: "pointer" }}
+              >
+                Developed by JamilTheDev
+              </p>
+            </a>
           </div>
         </div>
         <NavigationDots active={idName} />
