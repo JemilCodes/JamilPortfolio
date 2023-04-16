@@ -37,7 +37,8 @@ const Navbar = () => {
 
         {toggle && (
           <motion.div
-            whileInView={{ x: [300, 0] }}
+            initial={{ x: 200 }}
+            animate={{ x: 0 }}
             transition={{ duration: 1.05, ease: "easeOut" }}
           >
             <HiX
