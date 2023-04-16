@@ -47,15 +47,19 @@ const Header = () => (
           href="Jemilu-Ishaq--indeed.pdf"
           download="Jemilu-Ishaq--indeed.pdf"
           style={{
+            marginTop: "25px",
             textDecoration: "none",
             color: "var(--gray-color)",
           }}
         >
           <div
-            className="tag-cmp app__flex"
             style={{
               fontWeight: "500",
               borderRadius: "10px",
+              padding: "1rem 2rem",
+              background: "var(--white-color)",
+              width: "auto",
+              boxShadow: "0px 0px 20px rgba(0, 0, 0, 0.1)",
             }}
           >
             Get My CV
