@@ -43,6 +43,24 @@ const Header = () => (
             Freelancer
           </p>
         </div>
+        <a
+          href="Jemilu-Ishaq--indeed.pdf"
+          download="Jemilu-Ishaq--indeed.pdf"
+          style={{
+            textDecoration: "none",
+            color: "var(--gray-color)",
+          }}
+        >
+          <div
+            className="tag-cmp app__flex"
+            style={{
+              fontWeight: "500",
+              borderRadius: "10px",
+            }}
+          >
+            Get My CV
+          </div>
+        </a>
       </div>
     </motion.div>
 
