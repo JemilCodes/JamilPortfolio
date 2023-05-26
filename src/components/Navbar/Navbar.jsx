@@ -17,7 +17,7 @@ const Navbar = () => {
             color: "#313bac",
           }}
         >
-          Jamil
+          Jemil
         </h1>
       </div>
       <ul className="app__navbar-links">
